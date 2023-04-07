@@ -1,1 +1,152 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfólio do Jonathan Scottini</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <audio id="myAudio" src="/sounds/background_sound.mp4" autoplay loop>seu navegador não suporta
+    HTML5</audio>
+  <header>
+    <h1>Jonathan's portfolio</h1>
+
+    <nav>
+      <ul id="navList">
+        <li><a href="#aboutMe" title="Sobre mim">Sobre mim</a></li>
+        <li><a href="#experiencesIHad" title="Experiências com tecnologia">Experiências profissionais e acadêmicas</a>
+        </li>
+        <li><a href="#contactMe" title="Entre em contato">Entre em contato</a></li>
+      </ul>
+    </nav>
+
+    <p>Falando um pouco sobre quem é Jonathan Scottini e o que me motiva a continuar.</p>
+  </header>
+  <main>
+    <div id="aboutMe">
+      <img id="jonathanPicture" src="/images/jonathan.jpg" alt="foto do Jonathan Scottini"
+        title="Foto do Jonathan Scottini">
+      <p>Me chamo Jonathan Scottini e tenho 19 anos. Sou natural de Blumenau/SC</p>
+      <h2>Fatos sobre mim:</h2>
+      <ul>
+        <li>Fiz intercâmbio quando tinha 16 anos, em Eastbourne, England.</li>
+        <li>Sempre fui apaixonado por inglês e começei a estudar a língua estrangeira com 11 anos.
+        </li>
+        <li>Já fui professor de inglês e hoje sou tutor de alunos em um site, então a área acadêmica é
+          algo que me
+          interessa.</li>
+        <li>Moro em uma cidade pacata com 80 mil habitantes, desde quando nasci, mas que possui muitas
+          oportunidades de
+          tecnologia.</li>
+        <li>Meu interesse pela tecnologia começou logo cedo.</li>
+      </ul>
+      <div class="innerContainer">
+        <p>Como eu disse, sempre me interessei por tecnologia, mas por alguns anos achei que eu não gostaria de
+          trabalhar com tecnologia, acreditava que meu propósito era outro. Até que eu resolvi dar uma chance para a
+          área e fazer alguns cursos na Udemy e perceber que eu amo desenvolver!</p>
+      </div>
+      <div class="innerContainer">
+        <p>O que eu me motiva a ser um desenvolvedor é o quanto podemos impactar a vida das pessoas através da
+          tecnologia. <span>A tecnologia move o mundo, e eu quero fazer parte dessa transformação.</span></p>
+      </div>
+
+    </div>
+    <div id="experiencesIHad">
+      <h2>Experiências que tive ao longo da minha trajetória:</h2>
+      <div id="exchangeProgram">
+        <h3>Intercâmbio:</h3>
+        <p>Tive oportunidade de passar um mês nessa cidade litorânea linda da Inglaterra!<br> Lá nós tinhamos aula
+          diariamente com professores nativos e nossa turma tinha alunos do mundo inteiro. Principalmente árabes e
+          europeus.</p>
+        <figure class="images">
+          <img src="/images/eastbourne.jpg" title="Foto de Eastbourne, Inglaterra"
+            alt="Foto mostrando a cidade de Eastbourne na Inglaterra.">
+          <figcaption>Imagem da cidade de Eastbourne</figcaption>
+        </figure>
+
+      </div>
+      <div class="innerProject">
+        <h3>Projeto I:</h3>
+        <p>Tecnologias utilizadas: Java, SpringBoot, JDBC, MySql e PostMan</p>
+        <p>Objetivo do projeto: Adicionar/atualizar/remover e acessar os funcionários cadastrados de uma empresa
+          fictícia.</p>
+        <p>Link para o projeto: <a href="https://github.com/johnscottini/workshop-springboot3-jpa" target="_blank"
+            title="Link para o projeto do Java com Spring">Workshop
+            SpringBoot e Jpa</a></p>
+        <div class="mainContainer">
+          <div class="stacksContainer">
+            <img class="img" src="/images/java.jpg" title="Logo do java" alt="Java logo">
+            <img class="img" src="/images/spring_logo.png" alt="SpringBoot logo" title="Logo do SpringBoot">
+            <img class="img" src="/images/jdbc_logo.png" alt="JDBC logo" title="Logo do JDBC">
+
+          </div>
+          <span>Stacks utilizadas no projeto I</span>
+        </div>
+
+      </div>
+      <div class="innerProject">
+        <h3>Projeto II:</h3>
+        <p>Tecnologias utilizadas: JavaScript Vanilla</p>
+        <p>Objetivo do projeto: Praticar estruturas básicas do JavaScript, como: Functions, Estruturas condicionais,
+          interpolação de Strings...</p>
+        <p>Link para o projeto: <a href="https://github.com/johnscottini/Jogo-da-velha-com-JS" target="_blank"
+            title="Link para o projeto do jogo da velha">Jogo da
+            velha JavaScript</a> </p>
+        <figure class="images">
+          <img src="/images/gifs/jogoDaVelha.gif" title="Gif mostrando o código do jogo da velha"
+            alt="Gif mostrando o código do jogo da velha">
+          <figcaption>Mostrando o código do jogo da velha</figcaption>
+        </figure>
+      </div>
+      <div class="innerProject">
+        <h3>Instrutor de inglês:</h3>
+        <p>Fui professor de inglês durante 1 ano na Wizard idiomas. Durante esse período, tive oportunidade de
+          desenvolver meu inglês e de ter a experiência de instruir outros alunos ao conhecimento.</p>
+      </div>
+      <div class="innerProject">
+        <h3>Curso de Java + programação orientada a objetos</h3>
+        <p>Fiz um curso de Java do básico ao avançado, na Udemy!<br> O curso abordou todos os temas iniciais da
+          <strong>programação
+            orientada a objetos, SpringBoot, banco de dados</strong> (MySql e MongoDB) e as ferramentas de versionamento
+          de código
+          Git.
+        </p>
+        <figure class="images">
+          <img src="/images/certificado_java.png" title="Foto mostrando o certificado do curso de java"
+            alt="Gif mostrando o código do jogo da velha">
+          <figcaption>Mostrando meu certificado do curso</figcaption>
+        </figure>
+      </div>
+      <div class="innerProject">
+        <h3>Faculdade em Engenharia de Software</h3>
+        <p>Estou cursando Engenharia de Software na Infnet, meu objetivo é adquirir novos conhecimentos nas diversas
+          tecnologias utilizadas no mercado.
+        </p>
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <div id="contactMe">
+      <ul>
+        <li><a href="https://www.linkedin.com/in/jonathan-scottini/" target="_blank"
+            title="Link para o linkedin">Linkedin</a></li>
+        <li><a href="https://twitter.com/John_scottini" target="_blank" title="Link para o twitter">Twitter</a></li>
+        <li><a href="mailto:jonathanoliveirascottini8@gmail.com" title="Link para o email">Email</a></li>
+        <li><a href="https://github.com/johnscottini" target="_blank" title="link para o github">Github</a></li>
+        <li>
+          <p>👋</p>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
